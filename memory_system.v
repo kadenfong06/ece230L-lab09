@@ -18,7 +18,7 @@ module memory_system (
         .D(data3)
     );
     
-    demux#(.WIDTH(8)) store_demux (
+    demux#(.WIDTH(1)) store_demux (
         .data(store),
         .sel(addr),
         .A(store0),

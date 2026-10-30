@@ -15,5 +15,7 @@ module top(
         .store(btnC),
         .memory(led[15:8])
     );
+    
+    assign led[7:2] = 6'b000000;
 
 endmodule

@@ -10,7 +10,7 @@ module mux (
             2'b01: data_out <= B;
             2'b10: data_out <= C;
             2'b11: data_out <= D;
-            default: data_out = 8'b00000000;
+            default: data_out <= 8'b00000000;
         endcase
     end
 endmodule

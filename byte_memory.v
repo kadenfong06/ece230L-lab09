@@ -7,7 +7,7 @@ module byte_memory (
     genvar i;
     
     generate
-        for (i = 0; i < 0; i = i + 1) begin
+        for (i = 0; i < 8; i = i + 1) begin
             wire unused_notq;
             
             d_latch latch_bit (
